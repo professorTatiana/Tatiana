@@ -1,0 +1,114 @@
+<HTML>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Tatiana Anderson</title>
+        
+        <script>
+        
+        var csiDept = "https://www.csi.cuny.edu/";
+        var syllabus_ = "syllabus.html" ;
+        
+        var email = "tatiana."+"anderson"+"@"+"csi."+"cuny."+"edu";
+        
+        
+        function popup(show, hide){
+           hide.style.position = "absolute";
+        
+           show.style.position = "static";
+        
+           return show;
+        }
+        
+        
+        function goto(url){
+          window.open().location.href = url;
+        }
+        
+        </script>
+        </head>
+        
+        <body class="main">
+          <link rel="stylesheet" href="css/style.css">
+        
+        <input type="BUTTON" value="Office Hours"      style="top:25%"  onclick="current = popup(courses, current)">
+        
+        <input type="BUTTON" value="Class Hours" style="top:35%"  onclick="current = popup(class_h,  current)">
+        
+        <input type="BUTTON" value="Contact"      style="top:45%"  onclick="current = popup(contact, current)">
+    
+        <input type="BUTTON" value="Syllabus csc332"  style="top:55%" onclick="goto(syllabus_)">
+        
+        <input type="BUTTON" value="CSI Department"    style="top:65%"  onclick="goto(csiDept)">
+        
+        
+        
+    
+        
+        <div class="boxed">
+        
+        <div class="gray">
+        Tatiana Anderson
+       </div>
+        <div class="black">
+        Department of Computer Science<br>
+        Colege Of Staten Island<br>
+        The City University of New York<br>
+        </div>
+        
+       </div>
+       <table border="0" width="83%" height="50%">
+          <TR>
+          <TD>
+          
+       
+        <div id="courses" class="popup" style="width: 580">
+        
+        <u>Office Hours - Spring 2021</u>:
+        
+        <br><br>
+        
+        CSC 332 & 211 - Thur/Fri @8pm-09:30pm <br>Online (blackboard)
+        
+        </div>
+        <div id="class_h" class="popup" style="width:480">
+        
+        <u>Class Hours - Spring 2021</u>:
+        <br><br>
+        CSC 211 - Intermediate Programming<br>
+        Online (blackboard)<br>Tue/Thu @10:10am - 1:10pm<br><br>
+        Section: D001 <br> Online (blackboard)<br>
+        Monday:    12:20pm - 01:10pm<br>
+        Wednesday: 12:20pm - 02:15pm<br>
+        <br>
+        Section: D002 <br> Online (blackboard)<br>
+        Monday:    10:10am - 12:05pm<br>
+        Wednesday  10:10am - 11:00am<br>
+        </div>
+        
+        <div id="contact" class="popup" style="width:500">
+        
+        <u>Contact Information</u>:<br><br>
+        Office: Online (blackboard)<br><br>
+        Email: <script>  document.write("<a href='mailto:" + email + "'>" + email + "</a>");  </script>
+        
+        </div>
+        
+        
+       </td>
+    </tr>
+    </table>
+        
+        
+        
+        <script> var current = courses; </script>
+        <footer class="footer">
+          Coppyright &copy; 2021
+      </footer>
+    </body>
+        
+    </html>
+    </HTML>

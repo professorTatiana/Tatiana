@@ -1,0 +1,217 @@
+.main{
+    background: url("/img/");
+    background-size: cover;
+    height:95vh;
+    -webkit-background-size: cover;
+    background-position: center;
+    position: relative;
+}
+html 
+    {
+       zoom  : 100%;
+    }
+    
+    .boxed
+    {
+       position		: relative;
+       top			: 0;
+       left			: 0;
+       width		: 82%;
+       text-align		: center;
+    }
+    
+    .gray
+    {
+       color		: #CCCCCC;
+       text-shadow		: 4px 3px #000000;
+       font-family		: Arial;
+       font-size		: 42;
+    }
+     
+    .black
+    {
+       color		: black;
+       text-shadow		: 3px 2px #666666;
+       font-family		: Arial;
+       font-size		: 30;
+    }
+    
+    input
+    {
+       position		: absolute;
+       font-family		: Arial;
+       font-size		: 28;
+       width		: 17%;
+       opacity		: .7;
+       left			: 82%;
+       box-shadow		: 4px 4px #444444
+    }
+    
+    .img
+    {
+       position		: absolute;
+       z-index		: -1;
+       top			: 0;
+       left			: 0;
+       width		: 100%
+    }
+    
+    .main
+    {
+       background-color	: black;
+       overflow		: hidden
+    }
+     
+    
+    a
+    {
+      color			: #60C0F0;
+      link			: #60C0F0;
+      vlink			: #60C0F0;
+    }
+    
+    .popup
+    {
+       padding		: 15px;
+       margin		: auto;
+       position		: absolute;
+       top			: -1000; 
+       font-family		: Arial;
+       font-size		: 28;
+       background-color	: #000000;
+       opacity		: .7;
+       color		: #CCCCCC
+    }
+    .footer{
+    float: left;
+    color: #fff;
+    bottom: 0.2;
+    width: 50%;
+    position: fixed;
+}
+
+/* syllabus */
+
+
+.about-me{
+    text-justify: auto;
+}
+.about-name{
+    background-color: grey;
+    padding: 10px;
+    text-align:center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    margin: 0 0;
+    color: white;
+    
+
+}
+.about-name h2{
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 20px;
+}
+h3{
+    color: slategray;
+}
+h4{
+    color: slategray;
+}
+.grading{
+    padding: 20px;
+    background: #ebebeb;
+    text-align: center;
+    width: 100%;
+}
+.presentation{
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+.homeworks{
+    padding: 20px;
+    background: #ebebeb;
+    text-align: center;
+    width: 100%;
+}
+.textbook{
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+.content{
+    padding: 20px;
+    background: #ebebeb;
+    text-align: center;
+    width: 100%;
+}
+.class_{
+    padding: 40px;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+.schedule{
+    padding: 10px;
+    background: #ebebeb;
+    text-align: center;
+    width: 100%;
+}
+.address a{
+    text-decoration: none;
+    color: grey;
+}
+.address{
+    position: sticky;
+    top : 10px;
+    padding-top: 120px;
+    padding-bottom: 10px;
+    background: white;
+    text-align: center;
+    width: 100%;
+}
+.learning{
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    width: 100%;
+}
+.footer-about{
+    background: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+div.about{
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+}
+.about-home{
+    background-color: grey;
+    padding: 20px;
+    text-align:center;
+    width: 100%;
+    z-index: 1;
+    bottom: 30px;
+    margin: 0 0;
+    color: white;
+}
+.about-home a{
+    color: #fff;
+    text-decoration: none;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 20px;
+}
