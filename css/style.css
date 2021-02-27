@@ -1,5 +1,5 @@
 .main{
-    background: url("/img/one_magic_touch.jpg");
+    background: url(../img/one_magic_touch.jpg);
     background-size: cover;
     height:95vh;
     -webkit-background-size: cover;
